@@ -1,0 +1,71 @@
+#root {
+  display: flex;
+}
+
+.data-container {
+  margin-left: 20px;
+}
+
+.book-preview {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.book-cover {
+  height: 100%;
+  width: 35%;
+}
+
+.book-info {
+  width: 60%;
+}
+
+.book-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.book-author,
+.book-name {
+  text-align: center;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.input,
+.textarea {
+  width: 400px;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.textarea {
+  resize: none;
+  height: 120px;
+}
+
+.label {
+  padding-top: 10px;
+}
+
+.button-control {
+  display: flex;
+  width: 406px;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.error {
+  border: 1px solid red;
+}
